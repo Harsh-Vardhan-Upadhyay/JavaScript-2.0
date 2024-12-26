@@ -119,3 +119,54 @@ while(Numberis != inputNumber){
     inputNumber = prompt("Guess the number again")
 }
 alert("you have guessed the correct number")
+
+
+
+//<----------------------- Strings ------------------------->
+
+// Creating a String
+let str = "sample"; 
+
+// String Length
+console.log("Length of the string:", str.length); 
+
+// String Indices (Accessing individual characters)
+console.log("First character:", str[0]); // Output: s
+console.log("Second character:", str[1]); // Output: a
+console.log("Third character:", str[2]); // Output: m
+
+// Template Literals
+let name1 = "Alice";
+let greeting = `Hello, ${name1}!`; 
+console.log(greeting); // Output: Hello, Alice!
+
+// String Interpolation (Similar to Template Literals)
+let num1 = 5;
+let num2 = 3;
+let result = `The sum of ${num1} and ${num2} is ${num1 + num2}`;
+console.log(result); // Output: The sum of 5 and 3 is 8
+
+// String Methods
+
+// 1. To Uppercase
+console.log(str.toUpperCase()); // Output: SAMPLE
+
+// 2. To Lowercase
+console.log(str.toLowerCase()); // Output: sample
+
+// 3. Trim (Remove leading/trailing whitespace)
+let strWithSpaces = "   Hello World   ";
+console.log(strWithSpaces.trim()); // Output: "Hello World"
+
+// 4. Concat (Join strings)
+let str1 = "Hello";
+let str2 = " World";
+console.log(str1.concat(str2)); // Output: "Hello World"
+
+// 5. Replace (Replace a substring)
+let newStr = str.replace("College", "University"); 
+console.log(newStr); // Output: "Apna University"
+
+// 6. charAt (Get character at a specific index)
+let charAtIndex = str.charAt(5); 
+console.log(charAtIndex); // Output: "C"
