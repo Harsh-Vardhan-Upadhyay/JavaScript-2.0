@@ -170,3 +170,13 @@ console.log(newStr); // Output: "Apna University"
 // 6. charAt (Get character at a specific index)
 let charAtIndex = str.charAt(5); 
 console.log(charAtIndex); // Output: "C"
+
+
+
+// Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
+
+let userName = prompt("Enter your name")
+userName = String(userName)
+
+let size = userName.length
+alert(`Your user name is: @${userName}${size} `)
