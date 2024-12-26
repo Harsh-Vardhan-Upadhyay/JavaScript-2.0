@@ -103,3 +103,19 @@ if (Grade < 0 || Grade > 100) {
 } else {
     console.log("You have scored F Grade");
 }
+
+
+//<----------------------- Loops ------------------------->
+
+//Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
+
+
+let Numberis = 25;
+
+let inputNumber = prompt("Guess the number")
+inputNumber = Number(inputNumber);
+
+while(Numberis != inputNumber){
+    inputNumber = prompt("Guess the number again")
+}
+alert("you have guessed the correct number")
