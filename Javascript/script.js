@@ -1,4 +1,4 @@
-//<----------------------- Start of Program ----------------------->
+
 
 //<----------------------- Logging Messages ----------------------->
 console.log("namaste duniya"); // Prints "namaste duniya" to the console
@@ -59,4 +59,16 @@ if (age < 18) {               // Check if age is less than 18
     console.log("middle");
 }
 
-//<----------------------- End of Program ------------------------->
+//<----------------------- Ternary Operator Example ----------------------->
+
+//<----------------------- Define Variables ------------------------------->
+let age1 = 25; // Example variable to hold age value
+
+//<----------------------- Using Ternary Operator ------------------------->
+// Check if the person is an adult or minor using a ternary operator
+let category = age1 >= 18 ? "adult" : "minor";
+
+// Print the result
+console.log(`The result is ${category}`);
+
+
