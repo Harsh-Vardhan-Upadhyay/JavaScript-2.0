@@ -180,3 +180,57 @@ userName = String(userName)
 
 let size = userName.length
 alert(`Your user name is: @${userName}${size} `)
+
+
+
+
+
+//<----------------------- Arrays ------------------------->
+
+// Arrays in JavaScript
+// Arrays are collections of items (elements) stored in a single variable.
+// Each item can be of any data type, and arrays can store mixed data types.
+
+// Example 1: Creating an array of strings
+let heroes = ["ironman", "hulk", "thor", "batman"]; 
+// This array stores names of superheroes.
+
+// Example 2: Creating an array of numbers
+let marks = [96, 75, 48, 83, 66]; 
+// This array stores numeric marks.
+
+// Example 3: Creating an array with mixed data types
+let info = ["rahul", 86, "Delhi"]; 
+// This array stores a name, a number (e.g., marks), and a location.
+
+// Array Indices
+// Elements in an array are accessed using their indices, starting from 0.
+
+// Example of accessing array elements:
+console.log(heroes[0]); // Access the first element of the `heroes` array: "ironman"
+console.log(marks[2]);  // Access the third element of the `marks` array: 48
+console.log(info[1]);   // Access the second element of the `info` array: 86
+
+// Visualizing array indices:
+// heroes = [ "ironman", "hulk", "thor", "batman" ]
+// Index      0           1       2         3
+
+
+
+
+// Practice Question 
+// Print average of the numbrs in the given array 
+
+let arra1y = [1, 2, 3, 4, 5]; // Declare and initialize an array with 5 elements
+console.log(arra1y[1]); // Print the second element of the array (index 1), which is `2`
+size=arra1y.length // .lenght is used to find the size of the array 
+
+let ans = 0; // Initialize a variable `ans` to store the sum of the array elements
+
+// Loop through the array indices from 0 to 4 (inclusive)
+// `i` starts at 0 and increments by 1 in each iteration, as long as `i` is less than 5
+for (let i = 0; i < 5; i++) {
+    ans = ans + arra1y[i]; // Add the current array element (arra1y[i]) to `ans`
+}
+
+console.log(ans/size); // Print the final value of `ans`, which is the sum of the array elements
