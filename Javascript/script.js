@@ -234,4 +234,3 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log(ans/size); // Print the final value of `ans`, which is the sum of the array elements
-
