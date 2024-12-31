@@ -19,7 +19,7 @@ console.log(fullName);               // Print updated value
 const number = 29;            // Declare and initialize a constant
 console.log(number);          // Print constant value
 
-//<----------------------- Data Types ----------------------------->
+//<----------------------- Data Types ----------------------------->w
 // Demonstration of various data types in JavaScript
 let name = "harsh";           // String
 let number1 = 31;             // Integer (Number)
@@ -131,7 +131,7 @@ let str = "sample";
 console.log("Length of the string:", str.length); 
 
 // String Indices (Accessing individual characters)
-console.log("First character:", str[0]); // Output: s
+console.log("First character:", str[0]); // Output: s 
 console.log("Second character:", str[1]); // Output: a
 console.log("Third character:", str[2]); // Output: m
 
@@ -234,3 +234,4 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log(ans/size); // Print the final value of `ans`, which is the sum of the array elements
+
